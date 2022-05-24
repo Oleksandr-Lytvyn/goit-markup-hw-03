@@ -10,6 +10,24 @@
   --btngrey-color: #f5f4fa;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
+}
+
 .accent-link:hover,
 .accent-link:focus {
   color: var(--accent-color);
@@ -28,6 +46,8 @@ body {
 }
 .list {
   list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .title {
@@ -51,6 +71,12 @@ body {
 }
 
 /* ---------HEADER----------- */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .logo-header {
   font-family: 'Raleway';
   font-weight: 700;
@@ -92,6 +118,8 @@ body {
 
 .hero {
   background-color: var(--grey-bg-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -115,6 +143,8 @@ body {
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
+  display: block;
+  margin: 0 auto;
 }
 
 .btn-order:hover,
@@ -124,10 +154,16 @@ body {
 
 /* ------BENEFITS-------- */
 
+.benefits {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+
 .benefits-title {
   line-height: 1.14;
   font-size: 14px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .benefits-text {
@@ -135,14 +171,33 @@ body {
   color: var(--grey-color);
 }
 
-/* ---------TEAM---------- */
+/* ---------SERVICES---------- */
+
+.services {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+
+.services-title {
+  margin-bottom: 50px;
+}
+
+/* -----------TEAM------------ */
 
 .team {
   background-color: var(--light-bg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-title {
+  margin-bottom: 50px;
 }
 
 .card {
   background-color: var(--white-color);
+  width: 270px;
+  height: 368px;
 }
 
 .team-name {
@@ -150,6 +205,8 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-position {
@@ -201,6 +258,8 @@ body {
 
 .footer {
   background-color: var(--grey-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -209,6 +268,12 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--white-color);
+  display: block;
+  margin-bottom: 20px;
+}
+
+.contacts-item {
+  margin-bottom: 9px;
 }
 
 .contacts-address {
