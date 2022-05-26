@@ -240,12 +240,28 @@ body {
 
 /* ----------CATALOG------------ */
 
+.catalog {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.catalog-filter {
+  margin-bottom: 50px;
+}
+
+.catalog-item {
+  width: 370px;
+  height: 404px;
+}
+
 .catalog-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black-color);
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .catalog-text {
